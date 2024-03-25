@@ -1,4 +1,4 @@
-# Text-summaries-of-global-and-local-information-awareness
+# A text summarization approach to enhance global and local information awareness of transformer
 Paper experiment source code
 
 This project comes from one of our papers **Text-summaries-of-global-and-local-information-awareness**
