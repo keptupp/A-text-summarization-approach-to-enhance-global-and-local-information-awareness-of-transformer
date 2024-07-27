@@ -18,4 +18,6 @@ Experiments show that the improved model proposed in this paper has higher rouge
 and also has advantages over some mainstream models. The generated summaries are more accurate and informative.
 
 ## Code Introduce
-The code is divided into 3 independent parts. mycode is the first part, training inference code on LCSTS and CSL data sets for the original transformer model, mycode02 is training inference code on LCSTS for the improved model, and mycode03 is training and reasoning code on CSL for the improved model. And mycode03 also includes ablation experiments.
+The code is divided into 3 independent parts. mycode is the first part, training inference code on LCSTS and CSL data sets for the original transformer model, mycode02 is training inference code on LCSTS for the improved model, and mycode03 is training and reasoning code on CSL for the improved model. And mycode03 also includes ablation experiments.  
+  
+The training framework of each part is basically the same. Run main.py to start training or inference, and set the model structure, data set path and other parameters in config.py.
