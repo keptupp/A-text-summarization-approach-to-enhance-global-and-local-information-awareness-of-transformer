@@ -1,4 +1,4 @@
-# A text summarization approach to enhance global and local information awareness of transformer
+# A Text Summarization Approach to Enhance Global and Local Information Awareness of Transformer
 Paper experiment source code
 
 This project comes from one of our papers **Text-summaries-of-global-and-local-information-awareness**
@@ -21,3 +21,12 @@ and also has advantages over some mainstream models. The generated summaries are
 The code is divided into 3 independent parts. mycode is the first part, training inference code on LCSTS and CSL data sets for the original transformer model, mycode02 is training inference code on LCSTS for the improved model, and mycode03 is training and reasoning code on CSL for the improved model. And mycode03 also includes ablation experiments.  
   
 The training framework of each part is basically the same. Run main.py to start training or inference, and set the model structure, data set path and other parameters in config.py.
+
+## Model Performance
+  
+| Dataset | Method       | Rouge-L | Bleu  | Meteor |
+|---------|--------------|---------|-------|--------|
+| LCSTS   | Transformer  | 36.4    | 16.38 | 35.59  |
+|         | OurModel     | **37.35** | **17.39** | **36.19** |
+| CSL     | Transformer  | 55.27   | 34.50 | 57.02  |
+|         | OurModel     | **55.82** | **35.00** | **57.40** |
