@@ -16,3 +16,6 @@ Local encoding is to perform local convolution on the features extracted by the 
 use prior knowledge to extract local features of the document and enable the model to quickly extract local detail information.
 Experiments show that the improved model proposed in this paper has higher rouge scores than the baseline model on the LCSTS and CSL datasets,
 and also has advantages over some mainstream models. The generated summaries are more accurate and informative.
+
+## Code Introduce
+The code is divided into 3 independent parts. mycode is the first part, training inference code on LCSTS and CSL data sets for the original transformer model, mycode02 is training inference code on LCSTS for the improved model, and mycode03 is training and reasoning code on CSL for the improved model. And mycode03 also includes ablation experiments.
