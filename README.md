@@ -23,7 +23,10 @@ The code is divided into 3 independent parts. mycode is the first part, training
 The training framework of each part is basically the same. Run main.py to start training or inference, and set the model structure, data set path and other parameters in config.py.
 
 ## Model Performance
-  
+
+
+
+The following table compares the proposed model with the transformer model in various indicators.
 | Dataset | Method       | Rouge-L | Bleu  | Meteor |
 |---------|--------------|---------|-------|--------|
 | LCSTS   | Transformer  | 36.4    | 16.38 | 35.59  |
@@ -31,6 +34,11 @@ The training framework of each part is basically the same. Run main.py to start 
 | CSL     | Transformer  | 55.27   | 34.50 | 57.02  |
 |         | OurModel     | **55.82** | **35.00** | **57.40** |
 
+
+
+
+  
+The following is a comparison between our proposed model and some mainstream models on LCSTS.
 | Models       | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |--------------|---------|---------|---------|
 | TD-NHG\cite{li2022news} | 31.28   | 12.68   | 28.31   |
@@ -40,6 +48,9 @@ The training framework of each part is basically the same. Run main.py to start 
 | Transformer              | 40.3  | 27.0    | 36.4    |
 | OurModel                 | **41.0** | **28.1** | **37.3** |
   
+
+
+The following is a comparison between our proposed model and some mainstream models on the CSL dataset.
 | Models                   | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |--------------------------|---------|---------|---------|
 | Original T5 250\cite{wang2023t5} | 56.45   | 45.01   | 53.96   |
@@ -50,6 +61,9 @@ The training framework of each part is basically the same. Run main.py to start 
 | Transformer                    | 60.43   | 46.57   | 55.27   |
 | OurModel                       | **60.94** | **47.16** | **55.82** |
 
+
+
+The following is an ablation experiment to explore the effects of our two proposed coding structures on the model, conducted on the CSL dataset.
 | Models       | Parmas   | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |--------------|----------|---------|---------|---------|
 | Transformer  | 76.61M   | 60.43   | 46.57   | 55.27   |
