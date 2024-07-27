@@ -70,3 +70,6 @@ The following is an ablation experiment to explore the effects of our two propos
 | +global      | 76.66M   | 60.44   | 46.66   | 55.38   |
 | +local       | 86.37M   | 60.36   | 46.63   | 55.19   |
 | OurModel     | 96.88M   | **60.94** | **47.16** | **55.82** |
+
+
+## Model Weight
