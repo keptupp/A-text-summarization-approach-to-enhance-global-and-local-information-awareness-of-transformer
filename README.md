@@ -30,3 +30,29 @@ The training framework of each part is basically the same. Run main.py to start 
 |         | OurModel     | **37.35** | **17.39** | **36.19** |
 | CSL     | Transformer  | 55.27   | 34.50 | 57.02  |
 |         | OurModel     | **55.82** | **35.00** | **57.40** |
+
+| Models       | ROUGE-1 | ROUGE-2 | ROUGE-L |
+|--------------|---------|---------|---------|
+| TD-NHG\cite{li2022news} | 31.28   | 12.68   | 28.31   |
+| WeLM\cite{su2022welm}   | 32.23   | -       | -       |
+| TI-C-NHG\cite{li2023topic} | 34.26 | 16.74   | 32.03   |
+| GP\_Step\_0.3            | 36.24 | 22.56   | 34.36   |
+| Transformer              | 40.3  | 27.0    | 36.4    |
+| OurModel                 | **41.0** | **28.1** | **37.3** |
+  
+| Models                   | ROUGE-1 | ROUGE-2 | ROUGE-L |
+|--------------------------|---------|---------|---------|
+| Original T5 250\cite{wang2023t5} | 56.45   | 45.01   | 53.96   |
+| PEGASUS\cite{zhang2020pegasus}   | -       | -       | 55.2    |
+| BART\cite{lewis-etal-2020-bart}  | -       | -       | 49.9    |
+| CSL-T5\cite{li2022csl}          | -       | -       | 52.1    |
+| LSTM-seq2seq\cite{wang2023t5}    | 46.48   | 30.48   | 41.8    |
+| Transformer                    | 60.43   | 46.57   | 55.27   |
+| OurModel                       | **60.94** | **47.16** | **55.82** |
+
+| Models       | Parmas   | ROUGE-1 | ROUGE-2 | ROUGE-L |
+|--------------|----------|---------|---------|---------|
+| Transformer  | 76.61M   | 60.43   | 46.57   | 55.27   |
+| +global      | 76.66M   | 60.44   | 46.66   | 55.38   |
+| +local       | 86.37M   | 60.36   | 46.63   | 55.19   |
+| OurModel     | 96.88M   | **60.94** | **47.16** | **55.82** |
