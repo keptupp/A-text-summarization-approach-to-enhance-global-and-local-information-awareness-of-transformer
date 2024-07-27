@@ -73,3 +73,6 @@ The following is an ablation experiment to explore the effects of our two propos
 
 
 ## Model Weight
+We published a trained weight total for researchers to reproduce.  
+| Models       | Datasets   | ROUGE-1 | ROUGE-2 | ROUGE-L |
+|--------------|----------|---------|---------|---------|
