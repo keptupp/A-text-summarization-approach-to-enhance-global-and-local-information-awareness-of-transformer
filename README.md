@@ -76,7 +76,7 @@ The following is an ablation experiment to explore the effects of our two propos
 We published a trained weight total for researchers to reproduce.  
 | Models       | Datasets   | ROUGE-1 | ROUGE-2 | ROUGE-L | Weight |
 |--------------|----------|---------|---------|---------|---------|
-| Transformer  |    LCSTS        | 40.3  | 27.0    | 36.4    |    |
+| Transformer  |    LCSTS        | 40.3  | 27.0    | 36.4    | [code:abcd](https://pan.baidu.com/s/1cnEklfnd_4h5s5ZxYtNcZw?pwd=abcd)|
 | OurModel     | LCSTS      | **41.0** | **28.1** | **37.3** |    |
 | Transformer  | CSL       | 60.43   | 46.57   | 55.27   |    |
 | OurModel     | CSL      | **60.94** | **47.16** | **55.82** |    |
