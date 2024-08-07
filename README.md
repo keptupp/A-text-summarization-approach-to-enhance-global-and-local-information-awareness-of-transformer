@@ -79,4 +79,4 @@ We published a trained weight total for researchers to reproduce.
 | Transformer  |    LCSTS        | 40.3  | 27.0    | 36.4    |[weight](https://pan.baidu.com/s/1wmCXHOox-jrKpyFFMhM0cw?pwd=z8gg ) |
 | OurModel     | LCSTS      | **41.0** | **28.1** | **37.3** |[weight](https://pan.baidu.com/s/10cg1HrV9odUoFpy3JQG_7A?pwd=sses)  |
 | Transformer  | CSL       | 60.43   | 46.57   | 55.27   | [weight](https://pan.baidu.com/s/1cnEklfnd_4h5s5ZxYtNcZw?pwd=abcd)   |
-| OurModel     | CSL      | **60.94** | **47.16** | **55.82** |    |
+| OurModel     | CSL      | **60.94** | **47.16** | **55.82** | [weight](https://pan.baidu.com/s/12Uod5NxAK23ymQaA760sLw?pwd=uz2i)   |
